@@ -6,7 +6,13 @@
 
 [node name="World" type="Node2D"]
 
-[node name="Node" parent="." instance=ExtResource( 2 )]
+[node name="Kitchen" parent="." instance=ExtResource( 2 )]
+
+[node name="Area2D" parent="Kitchen" index="1"]
+collision_layer = 1
+
+[node name="Delivery" parent="Kitchen/Area2D" index="1"]
+frame = 1
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -18,3 +24,5 @@ margin_left = 295.0
 margin_top = 28.0
 margin_right = 295.0
 margin_bottom = 28.0
+
+[editable path="Kitchen"]

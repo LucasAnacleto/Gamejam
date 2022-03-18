@@ -42,7 +42,7 @@ region_rect = Rect2( 1, 0, 640, 320 )
 position = Vector2( 160, 24 )
 frames = SubResource( 5 )
 animation = "mover set"
-frame = 3
+frame = 1
 playing = true
 
 [node name="TileMap" type="TileMap" parent="."]
